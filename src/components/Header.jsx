@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from './Images/logo.png';
 
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
         
         {/* desktop & tablet */}
         <div className="hidden md:flex w-full h-full">
-            
+            <h1>Hello World</h1>
         </div>
 
         {/* mobile */}
